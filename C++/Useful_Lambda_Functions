@@ -1,0 +1,7 @@
+//For_each that prints each value to the console.
+//need to make a template to add different data structures
+
+void print_elements(std::vector<int> s) {
+    std::for_each(s.begin(), s.end(), [](auto n)   //algorithm/vector library needed
+      {std::cout << n << std::endl; });
+}
