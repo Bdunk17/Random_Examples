@@ -2,9 +2,10 @@
 #include <string>
 
 class Trie {
-public:
+private:
     bool isLeaf;        
     Trie* children[26];
+public:
     Trie() {
         this->isLeaf = false;
         for (int i = 0; i < 26; i++) {
